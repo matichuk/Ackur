@@ -55,9 +55,8 @@ SDK
    - Prime number generation.
 - AckurPublicKey
    - Public/private key encryption.
-- AckurZip
-   - Zlib type compression. 
-   - Deviates slightly by adding a header to the compressed data that is used when decompressing.
+- AckurCompress
+   - Based on Zlib, but deviates slightly by adding a header to the compressed data that is used when decompressing.
 - AckurFileIO
    - File I/O. 
 - AckurBTree
