@@ -80,6 +80,8 @@ Not Exposed in SDK
    - The user defined syntax associates rule options with libraries - but only the SDK pre-define libraries at this point.
 - Ackur Networking Protocol
    - The protocol that Ackur uses to securely communicate between devices/instances is only accessable through the scripting engine.
+- Raw results from exectuing a script
+   - Routines to parse the raw results from a script call have not yet been exposed. So the script results are currently converted to text before returning. Sometime in the future there will be an option of recieving a token and a response message. A script is able to concatenate onto the response message during execution, but will return only a single token.
 
 Example User Syntax
 - See http://ackur.com for an example user syntax for setting up a simple calculator supporting entries like "45 + (32 - 30)" and "(2 * 564.45) / 45.2".
