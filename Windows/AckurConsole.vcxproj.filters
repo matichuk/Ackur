@@ -36,16 +36,10 @@
     <ClInclude Include="AckurLib\AckurValue.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
-    <ClInclude Include="AckurLib\AckurCoreBlock.h">
-      <Filter>AckurLib</Filter>
-    </ClInclude>
     <ClInclude Include="AckurLib\AckurThread.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
     <ClInclude Include="AckurLib\AckurFile.h">
-      <Filter>AckurLib</Filter>
-    </ClInclude>
-    <ClInclude Include="AckurLib\AckurFileTree.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
     <ClInclude Include="AckurLib\AckurPrime.h">
@@ -69,13 +63,19 @@
     <ClInclude Include="AckurLib\AckurNet.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
-    <ClInclude Include="AckurLib\AckurCore.h">
+    <ClInclude Include="AckurLib\AckurBlockFile.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
-    <ClInclude Include="AckurLib\AckurLink.h">
+    <ClInclude Include="AckurLib\AckurScript.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
-    <ClInclude Include="AckurLib\AckurZip.h">
+    <ClInclude Include="AckurLib\AckurBTree.h">
+      <Filter>AckurLib</Filter>
+    </ClInclude>
+    <ClInclude Include="AckurLib\AckurBTreeBlock.h">
+      <Filter>AckurLib</Filter>
+    </ClInclude>
+    <ClInclude Include="AckurLib\AckurCompress.h">
       <Filter>AckurLib</Filter>
     </ClInclude>
   </ItemGroup>

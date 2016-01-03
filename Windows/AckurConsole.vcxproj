@@ -160,20 +160,20 @@
     <ClInclude Include="AckurLib\AckurAES256.h" />
     <ClInclude Include="AckurLib\AckurBigFloat.h" />
     <ClInclude Include="AckurLib\AckurBigInteger.h" />
-    <ClInclude Include="AckurLib\AckurCore.h" />
-    <ClInclude Include="AckurLib\AckurCoreBlock.h" />
+    <ClInclude Include="AckurLib\AckurBlockFile.h" />
+    <ClInclude Include="AckurLib\AckurBTree.h" />
+    <ClInclude Include="AckurLib\AckurBTreeBlock.h" />
+    <ClInclude Include="AckurLib\AckurCompress.h" />
     <ClInclude Include="AckurLib\AckurFile.h" />
     <ClInclude Include="AckurLib\AckurFileCache.h" />
     <ClInclude Include="AckurLib\AckurFileIO.h" />
-    <ClInclude Include="AckurLib\AckurFileTree.h" />
-    <ClInclude Include="AckurLib\AckurLink.h" />
     <ClInclude Include="AckurLib\AckurNet.h" />
     <ClInclude Include="AckurLib\AckurPrime.h" />
     <ClInclude Include="AckurLib\AckurPublicKey.h" />
+    <ClInclude Include="AckurLib\AckurScript.h" />
     <ClInclude Include="AckurLib\AckurSHA3.h" />
     <ClInclude Include="AckurLib\AckurThread.h" />
     <ClInclude Include="AckurLib\AckurValue.h" />
-    <ClInclude Include="AckurLib\AckurZip.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

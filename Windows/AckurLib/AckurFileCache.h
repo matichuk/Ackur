@@ -6,14 +6,14 @@
 #define _AckurFileCACHE_
 
 #include "AckurFile.h"
-#include "AckurCore.h"
+#include "AckurBTree.h"
 
 class BtCacheBlock;
 
 class AckurFileCache : public AckurFile
 {
 public:
-	enum { BLOCKSIZE=AckurBlock::BLOCKSIZE, BLOCKSPERPAGE=8, BLOCKPAGESIZE=BLOCKSIZE*BLOCKSPERPAGE, };
+	enum { BLOCKSIZE=AckurBTreeBlock::BLOCKSIZE, BLOCKSPERPAGE=8, BLOCKPAGESIZE=BLOCKSIZE*BLOCKSPERPAGE, };
 	enum { DEFAULT_HEIGHT=4, DEFAULT_SIZE=(1024*8*4)};
 public:
     AckurFileCache();
