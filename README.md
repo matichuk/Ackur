@@ -40,7 +40,7 @@ Grammar
 - If a user syntax is not provided to the tool, the tool will initialze with a default syntax. On the console, enter "grammar" to view the default user syntax.
 
 SDK
-- AckurLink (will be renamed to AckurScript)
+- AckurScript
    - Interface to the scripting engine.
    - This is only needed if you plan on using the scripting engine. Both async and sync commands supported.
 - AckurBigInteger
@@ -60,13 +60,16 @@ SDK
    - Deviates slightly by adding a header to the compressed data that is used when decompressing.
 - AckurFileIO
    - File I/O. 
-- AckurCore (will be renamed to AckurBTree)
-   - B*Tree
+- AckurBTree
    - Can operate on a file or memory.
+- AckurBlockFile
+   - Uses a BTree to store compressed file blocks. Enables random I/O on a compressed (and/or encrypted) file.
+   - (Note - needs to be updated to properly implement caching, currently leaves all accessed blocks in memory)
 - AckurNet
    - IPv4 and IPv6 networking.
 - AckurThread
-   - Threads and critical
+   - Threads
+   - Critical with trigger message support
 - AckurValue
    - Ackur data objects.
 
