@@ -40,7 +40,7 @@ Grammar
 - If a user syntax is not provided to the tool, the tool will initialze with a default syntax. On the console, enter "grammar" to view the default user syntax.
 
 SDK
-- AckurLink
+- AckurLink (will be renamed to AckurScript)
    - Interface to the scripting engine.
    - This is only needed if you plan on using the scripting engine. Both async and sync commands supported.
 - AckurBigInteger
@@ -60,7 +60,7 @@ SDK
    - Deviates slightly by adding a header to the compressed data that is used when decompressing.
 - AckurFileIO
    - File I/O. 
-- AckurCore
+- AckurCore (will be renamed to AckurBTree)
    - B*Tree
    - Can operate on a file or memory.
 - AckurNet
