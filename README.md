@@ -37,7 +37,7 @@ Running Sample Console App
 
 Grammar
 - The engine first initializes a syntax that can be used to redefine the language syntax. On the console, enter "$grammar" to view the system syntax.
-- If a user syntax is not provided to the tool, the tool will initialze with a default syntax. On the console, enter "grammar" to view the default user syntax.
+- A user defined syntax must be provided. The SDK includes a DefaultGrammar function that will return a default grammar that can be passed into the tool using the SetGrammar command. Once set, the SDK will use that grammar to initialize any new script session (including sessions created for a listening network connection). 
 
 SDK
 - AckurScript
