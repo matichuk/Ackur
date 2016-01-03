@@ -22,16 +22,16 @@ Linux
    - May need to first run "chmod a+x build.sh".
 - bin folder
    - Precompiled binary.
-   - Compiled with Debian 7.9 but should work on other linux variants.
+   - Compiled with Debian 7.9 but should work on other Linux variants.
 
 Mac, iPhone, Android
 - Work in progress
 
 Running Sample Console App
 - Copy the binary to some location on your HDD and run.
-- First time will take a minute or two to start - identies and ecryption keys are being created.
+- First time will take a minute or two to start - identities and encryption keys are being created.
 - Two items will be created:
-    * "config.ackur" file is an Ackur DB containing the identies and keys. 
+    * "config.ackur" file is an Ackur DB containing the identities and keys. 
     * "home" folder will contain a subfolder for each user. Directory navigation is restricted to the user home (user GUID folder)
 - Default user is "console". The user GUID for "console" will be different on each instance of the tool.
 
@@ -43,12 +43,13 @@ SDK
 - AckurScript
    - Interface to the scripting engine.
    - This is only needed if you plan on using the scripting engine. Both async and sync commands supported.
+   - The other objects can be used independently from the scripting engine.
 - AckurBigInteger
    - Unlimited precision integer math.
 - AckurBigFloat
    - Unlimited precision fixed and float math. 
 - AckurAES256
-   - aes256 encryiption.
+   - aes256 encryption.
 - AckurSHA3
    - SHA3 hash generation.
 - AckurPrime
@@ -74,13 +75,13 @@ SDK
 
 Not Exposed in SDK
 - DB
-   - Interface needs to be reworked before exposing the library. At this point, the DB is only accessable through the scripting engine.
+   - Interface needs to be reworked before exposing the library. At this point, the DB is only accessible through the scripting engine.
 - Scripting libraries
    - The user defined syntax associates rule options with libraries - but only the SDK pre-define libraries at this point.
 - Ackur Networking Protocol
-   - The protocol that Ackur uses to securely communicate between devices/instances is only accessable through the scripting engine.
-- Raw results from exectuing a script
-   - Routines to parse the raw results from a script call have not yet been exposed. So the script results are currently converted to text before returning. Sometime in the future there will be an option of recieving a token and a response message. A script is able to concatenate onto the response message during execution, but will return only a single token.
+   - The protocol that Ackur uses to securely communicate between devices/instances is only accessible through the scripting engine.
+- Raw results from executing a script
+   - Routines to parse the raw results from a script call have not yet been exposed. So the script results are currently converted to text before returning. Sometime in the future there will be an option of receiving a token and a response message. A script is able to concatenate onto the response message during execution, but will return only a single token.
 
 Example User Syntax
 - See http://ackur.com for an example user syntax for setting up a simple calculator supporting entries like "45 + (32 - 30)" and "(2 * 564.45) / 45.2".
