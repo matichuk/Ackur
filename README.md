@@ -1,5 +1,5 @@
 # Ackur
-Cross platform process VM SDK with dynamic grammar scripting and libraries for BitInteger, BigFloat, SHA3, AES256, PublicKey, BTree, Networking, Threads, and Compression.
+Cross platform process VM SDK with dynamic grammar scripting and libraries for BitInteger, BigFloat, SHA3, AES256, PublicKey, BTree, Networking, Threads, Compression, Conditions, Loops, and File IO.
 
 Windows
 - AckurLib folder
