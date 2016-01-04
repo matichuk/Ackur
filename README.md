@@ -76,14 +76,14 @@ SDK
 Not Exposed in SDK
 - DB
    - Interface needs to be reworked before exposing the library. At this point, the DB is only accessible through the scripting engine.
-- Scripting libraries
+- User Definable Scripting Libraries
    - The user defined syntax associates rule options with libraries - but only the SDK pre-define libraries at this point.
 - Ackur Networking Protocol
    - The protocol that Ackur uses to securely communicate between devices/instances is only accessible through the scripting engine.
-- Raw results from executing a script
+- Script Raw Results
    - Routines to parse the raw results from a script call have not yet been exposed. So the script results are currently converted to text before returning. Sometime in the future there will be an option of receiving a token and a response message. A script is able to concatenate onto the response message during execution, but will return only a single token.
 - Graphics
-   - The SDK does not include any graphics libraries at this time. This will come eventually, and onces supported will be cross platform within the scripting enviroment. 
+   - The SDK does not include any graphics libraries at this time. This will come eventually, and once supported will be cross platform within the scripting environment. 
 
 Example User Syntax
 - See http://ackur.com for an example user syntax for setting up a simple calculator supporting entries like "45 + (32 - 30)" and "(2 * 564.45) / 45.2".
